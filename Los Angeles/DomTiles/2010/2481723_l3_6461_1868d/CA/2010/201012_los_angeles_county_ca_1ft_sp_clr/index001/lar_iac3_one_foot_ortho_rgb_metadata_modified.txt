@@ -1,0 +1,271 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Sanborn Map Co., Inc.
+      Publication_Date: Unpublished Material
+      Title: 1-Foot Pixel Resolution Orthoimagery
+      Geospatial_Data_Presentation_Form: raster digital data
+      Publication_Information:
+        Publication_Place: Los Angeles, California
+        Publisher: County of Los Angeles, Chief Information Office, through the Geospatial Information Officer
+  Description:
+    Abstract: These files contain 1-foot GSD high-resolution orthorectified Color (RGB) aerial image map products in GeoTIFF format.  The LAR-IAC3 project encompasses the entire land area of Los Angeles County on the mainland plus Catalina Island. The County boundary on the mainland was buffered by 500 feet. The 1-foot resolution digital orthoimagery is this dataset has two sources. First, imagery was collected at a one foot resolution over forested areas on the mainland covering approximately 1,080 square miles. Imagery was orignally collected at a 0.33-foot resolution over the remaining Urban/Suburban mainland areas of the County covering approximately 3,076 square miles, and Catalina Island covering approximately 107 square miles. The 0.33 foot imagery was then resampled to a one foot resolution for the purposes of generating this public domain countywide coverage.
+    Purpose: The digital ortho photos are produced for use in various purposes such as planimetric data capture, emergency management, land use or land cover, economic development, environment management, Wetlands management, etc.
+    Supplemental_Information: Los Angeles County provided the digital elevation model (DEM) data for the purposes of orthorectification.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20101216
+        Ending_Date: 20110718
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -118.950783
+      East_Bounding_Coordinate: -117.633032
+      North_Bounding_Coordinate: 34.830113
+      South_Bounding_Coordinate: 33.291761
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: Digital Orthoimagery
+      Theme_Keyword: Digital Orthophoto
+      Theme_Keyword: Land use or land cover
+      Theme_Keyword: Emergency management
+      Theme_Keyword: Planimetric
+      Theme_Keyword: Economic development
+      Theme_Keyword: Environment
+      Theme_Keyword: Wetlands
+      Theme_Keyword: Infrastructure or ground transportation
+      Theme_Keyword: Tourism or recreation
+      Theme_Keyword: Miscellaneous
+    Place:
+      Place_Keyword_Thesaurus: Los Angeles County
+      Place_Keyword: California
+      Place_Keyword: USA
+  Access_Constraints: None. Data provided courtesy of the Los Angeles Region Imagery Acquisition Condortium (LAR-IAC) - http://egis3.lacounty.gov/dataportal/index.php/lariac/
+  Use_Constraints: None
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Mark Greninger
+        Contact_Organization: Los Angeles County Chief Information Office
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 350 S. Figueroa Street, Suite 188
+        City: Los Angeles
+        State_or_Province: California
+        Postal_Code: 90071
+        Country: United States of America
+      Contact_Voice_Telephone: 213-253-5624
+      Contact_Facsimile_Telephone: None
+      Contact_Electronic_Mail_Address: mgreninger@cio.lacounty.gov
+Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.5.1450
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: N/A
+    Quantitative_Attribute_Accuracy_Assessment:
+      Attribute_Accuracy_Value: N/A
+      Attribute_Accuracy_Explanation: Orthoimagery does not contain attribution.
+  Logical_Consistency_Report: The dataset contains raster images of digital orthophotos so the logical consistency report is not applicable.  The file naming convention is based on a Basic Modular Unit. The Basic modular Unit covers an area one mile (5,280 by 5,280 feet) on a side. Imagery originally collected at a one foot resolution (forested areas) is tiled to one complete Basic Modular Unit (a one square mile tile). Imagery resampled from the 0.33 feet resolution (urban) uses a tile that is one fourth (1/4) of a Basic Modular Unit. The neat area of this unit measures 2,640 ft x 2,640 feet. Both tiles are gridded based on the California State Plane Coordinate System, Zone 5 (feet). The origin of the tile grid system was arbitrary. Each Basic Modular Unit map is identified by a map number derived from selected paired digits of the east and north coordinates of the southwest corner of the module. For example, a tile with the lower left corner coordinates of E = 6,345,000 and N = 2,042,000 will be known as Tile Number L2_6345_2042. The first four digits represent the first four numbers of the East coordinates and the last four numbers represent the first four numbers of the North coordinates. Each subunit for the 0.33 foot resolution-derived tiles is identified with the Basic Modular Unit plus the letter a,b,c, and d numbered clockwise from the south westerly quadrant. The L2 prefix designates the tile was produced for the LAR-IAC3 program.
+  Completeness_Report: The digital orthoimagery has been inspected against the tile and project boundaries to ensure complete coverage.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: The digitial orthoimagery meets the required accuracy:  Equal to or less than 3 pixels on well defined ground features (roads, sidewalks, curbs).
+      Quantitative_Horizontal_Positional_Accuracy_Assessment:
+        Horizontal_Positional_Accuracy_Value: 3
+        Horizontal_Positional_Accuracy_Explanation: Accuracy requirement as stated in Acceptance Criteria B:  1-Foot GSD
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: Not Available
+      Quantitative_Vertical_Positional_Accuracy_Assessment:
+        Vertical_Positional_Accuracy_Value: 0
+        Vertical_Positional_Accuracy_Explanation: Orthoimagery does not contain inherent vertical accuracy.
+  Lineage:
+    Source_Information:
+      Type_of_Source_Media: Digital
+      Source_Citation:
+        Citation_Information:
+          Originator: LAR-IAC and Pictometry International Corp.
+          Publication_Date: Unknown
+          Title: Control
+          Geospatial_Data_Presentation_Form: tabular digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20101216
+            Ending_Date: 20110718
+        Source_Currentness_Reference: ground condition      
+      Source_Citation_Abbreviation: CONT
+      Source_Contribution: Geodetic and surveyed ground control coordinates used to support the aerial triangulation and positional accuracy validation of the orthoimagery was provided by LAR-IAC. The airborne GPS/IMU data used to support the aerial triangulation was collected and processed by Pictometry International Corp.
+    Source_Information:
+      Type_of_Source_Media: Digital
+      Source_Citation:
+        Citation_Information:
+          Originator: Pictometry International Corp.
+          Publication_Date: 2011
+          Title: Aerial Imagery
+          Geospatial_Data_Presentation_Form: raster digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20101216
+            Ending_Date: 20110718
+        Source_Currentness_Reference: ground condition    
+      Source_Citation_Abbreviation: IMA
+      Source_Contribution: Aerial imagery incorporated in the orthrectification was provided by Pictometry International Corp.
+    Source_Information:
+      Type_of_Source_Media: Digital
+      Source_Citation:
+        Citation_Information:
+          Originator: Pictometry International Corp.
+          Publication_Date: 2011
+          Title: Aerial Triangulation
+          Geospatial_Data_Presentation_Form: document
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20101216
+            Ending_Date: 20110718
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: AT
+      Source_Contribution: Aerial triangulation data used in the orthorectification process was provided by Pictometry International Corp.
+    Source_Information:
+      Type_of_Source_Media: Digital
+      Source_Citation:
+        Citation_Information:
+          Originator: LAR-IAC
+          Publication_Date: 2006
+          Title: Digital Elevation Model
+          Geospatial_Data_Presentation_Form: raster digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 2006
+            Ending_Date: 2006
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: DEM
+      Source_Contribution: Digital eleveation models (DEM) were provided by the LAR-IAC to support the orthorectification process.
+    Process_Step:
+      Process_Description: Los Angeles County was divided into three major production areas for this project; urban/suburban area, forest area and Catalina Island. Aerial imagery was collected in 2011.  The imagery was acquired utilizing Pictometry-owned digital camera systems. Ground control used to support the mapping was provided by LAR-IAC with additional locations collected at strategic locations on the aerial photography plan and then determining the coordinates by GPS ground survey techniques.  The Aerial Triangulation was performed using softcopy workstations.  Bundle adjustment was performed using standard photogrammetric collection techniques on softcopy workstations.
+      Source_Used_Citation_Abbreviation: CONT
+      Source_Used_Citation_Abbreviation: IMA
+      Source_Used_Citation_Abbreviation: AT
+      Process_Date: 2012
+    Process_Step:
+      Process_Description: Existing Digital Elevation Models were updated where necessary to support the orthorectification process using softcopy workstations.  The images were then ortho rectified and color balanced.  Seamless mosaicing was performed and the seamless mosaic was clipped into tiles.
+      Source_Used_Citation_Abbreviation: AT
+      Source_Used_Citation_Abbreviation: DEM
+      Source_Used_Citation_Abbreviation: IMA
+      Process_Date: 2012
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: Sanborn Map Co., Inc.
+            Contact_Person: Krysia Sapeta
+          Contact_Position: Project Manager
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: 1935 Jamboree Drive, Suite 100
+            City: Colorado Springs
+            State_or_Province: CO
+            Postal_Code: 80920
+            Country: USA
+          Contact_Voice_Telephone: 719-593-0093
+          Contact_Facsimile_Telephone: 719-528-5093
+          Contact_Electronic_Mail_Address: ksapeta@sanborn.com
+          Hours_of_Service: 8:00 AM-5:00 PM M-F MST
+  Cloud_Cover: 5
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Raster
+  Raster_Object_Information:
+    Raster_Object_Type: Pixel
+    Row_Count: 2640
+    Column_Count: 5280
+    Vertical_Count: 1
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: Lambert Conformal Conic
+        Lambert_Conformal_Conic:
+          Standard_Parallel: 34.033333
+          Standard_Parallel: 35.466667
+          Longitude_of_Central_Meridian: -118.000000
+          Latitude_of_Projection_Origin: 33.500000
+          False_Easting: 6561666.666667
+          False_Northing: 1640416.666667
+      Grid_Coordinate_System:
+       Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+       State_Plane_Coordinate_System (SPCS):
+           SPCS_Zone_Identifier: 405 
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 1.000000
+          Ordinate_Resolution: 1.000000
+        Planar_Distance_Units: survey feet
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+        Contact_Person: 
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: EROS Data Center
+	Address: 47914 252nd Street
+        City: Soiux Falls
+        State_or_Province: South Dakota
+        Postal_Code: 57198-0001
+        Country: United States of America
+      Contact_Voice_Telephone: 1-800-252-4457
+      Contact_Electronic_Mail_Address: custserv@usgs.gov
+  Resource_Description: Downloadable Data
+  Distribution_Liability: Contact LAR-IAC
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: GeoTIFF 6.0
+        Format_Version_Number: 6.0
+        Transfer_Size: 0.140
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: Not Available
+    Fees: Contact
+Metadata_Reference_Information:
+  Metadata_Date: 20120521
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Los Angeles County Chief Information Office
+        Contact_Person: Mark Greninger
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 350 S. Figueroa Street, Suite 188
+        City: Los Angeles
+        State_or_Province: California
+        Postal_Code: United States of America
+      Contact_Voice_Telephone: 213-253-5624
+      Contact_Electronic_Mail_Address: mgreninger@cio.lacounty.gov
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Security_Information:
+    Metadata_Security_Classification_System: Not Available
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Handling_Description: Not Available
+  Metadata_Extensions:
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
