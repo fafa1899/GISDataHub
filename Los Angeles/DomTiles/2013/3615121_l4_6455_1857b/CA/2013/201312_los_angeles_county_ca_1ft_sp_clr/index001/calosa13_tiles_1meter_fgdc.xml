@@ -1,0 +1,290 @@
+<?xml version="1.0" standalone="no"?>
+<metadata>
+	<idinfo>
+		<descript>
+			<langdata Sync="TRUE">en</langdata>
+			<abstract>The dataset consists of tiled orthogonal imagery produced from nadir images captured by Pictometry International.</abstract>
+			<purpose>This ortho-mosaic is a visualization product and is not intended or valid for authoritative or definitive use, nor is it suitable for submittal to the USGS for funding reimbursement in such programs.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>Pictometry International</origin>
+				<pubdate>20140603</pubdate>
+				<title>Full_Extent_Sans_Catalina</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>ground condition</current>
+			<timeinfo>
+				<rngdates>
+					<begdate>20131228</begdate>
+					<enddate>20140411</enddate>
+				</rngdates>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Unknown</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-119.013623</westbc>
+				<eastbc>-117.569177</eastbc>
+				<northbc>34.878871</northbc>
+				<southbc>33.645654</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>Pictometry International</themekt>
+				<themekey>Pictometry Standard</themekey>
+			</theme>
+			<temporal>
+				<tempkt>none</tempkt>
+				<tempkey>Current</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>Access to this dataset is constrained by the relevant Pictometry International Corp. license agreement</accconst>
+		<useconst>Use of this dataset is constrained by the relevant Pictometry International Corp. license agreement</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntaddr>
+					<address>100 Town Centre Drive</address>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Suite A</address>
+					<city>Rochester</city>
+					<state>New York</state>
+					<postal>14623</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntorgp>
+					<cntorg>Pictometry International Corp.</cntorg>
+				</cntorgp>
+				<cntpos>Customer Support</cntpos>
+				<cntvoice>585-486-0093</cntvoice>
+				<cntfax>585-486-0098</cntfax>
+				<hours>0900-1700 EST</hours>
+			</cntinfo>
+		</ptcontac>
+		<crossref>
+			<citeinfo>
+				<title>Full_Extent_Sans_Catalina</title>
+				<origin>Pictometry International</origin>
+				<pubdate>20140603</pubdate>
+				<geoform>vector digital data</geoform>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<metainfo>
+		<langmeta Sync="TRUE">en</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Pictometry International Corp.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<city>Rochester</city>
+					<state>New York</state>
+					<postal>14623</postal>
+					<address>100 Town Centre Drive</address>
+					<address>Suite A</address>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>585-486-0093</cntvoice>
+				<cntpos>Customer Support</cntpos>
+				<cntfax>585-486-0098</cntfax>
+				<hours>0900-1700 EST</hours>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20140603</metd>
+		<metextns>
+			<onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+		</metextns>
+	</metainfo>
+	<mdLang>
+		<languageCode Sync="TRUE" value="en"></languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004"></CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005"></ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntaddr>
+					<address>100 Town Centre Drive</address>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Suite A</address>
+					<city>Rochester</city>
+					<state>New York</state>
+					<postal>14623</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntorgp>
+					<cntorg>Pictometry International Corp.</cntorg>
+				</cntorgp>
+				<cntpos>Customer Support</cntpos>
+				<cntvoice>585-486-0093</cntvoice>
+				<cntfax>585-486-0098</cntfax>
+				<hours>0900-1700 EST</hours>
+			</cntinfo>
+		</distrib>
+		<distliab>Distribution of this dataset is constrained by the relevant Pictometry International Corp. license agreement</distliab>
+	</distinfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="Full_Extent_Sans_Catalina">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">9016</efeacnt>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="Full_Extent_Sans_Catalina">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">9016</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">US Survey Feet</plandu>
+					<coordrep>
+						<absres>1.0</absres>
+						<ordres>1.0</ordres>
+					</coordrep>
+				</planci>
+				<mapproj>
+					<mapprojn>Lambert Conformal Conic</mapprojn>
+					<lambertc>
+						<longcm>-118</longcm>
+						<latprjo>33.5</latprjo>
+						<stdparll>35.466666666667</stdparll>
+						<stdparll>34.033333333333</stdparll>
+						<feast>6561666.6666666</feast>
+						<fnorth>1640416.66666665</fnorth>
+					</lambertc>
+				</mapproj>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_North_American_1983</horizdn>
+				<ellips Sync="TRUE">GRS_1980 </ellips>
+				<semiaxis Sync="TRUE">6378137</semiaxis>
+				<denflat Sync="TRUE">298.257222101</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum>North American Vertical Datum of 1988</altdatum>
+				<altunits>feet</altunits>
+				<altres>1000.0</altres>
+				<altenc>Implicit coordinate</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="Full_Extent_Sans_Catalina">
+			<enttyp>
+				<enttypl>Full_Extent_Sans_Catalina</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">9016</enttypc>
+				<enttypd>Orthogonal Imagery</enttypd>
+				<enttypds>Pictometry International Corp.</enttypds>
+			</enttyp>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20140603</mdDateSt>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Full_Extent_Sans_Catalina</title>
+						<origin>Pictometry International</origin>
+						<pubdate>20140603</pubdate>
+						<geoform>vector digital data</geoform>
+					</citeinfo>
+				</srccite>
+				<typesrc>disc</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>20131228</begdate>
+							<enddate>20140411</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>disc</srccitea>
+				<srccontr>N/A</srccontr>
+			</srcinfo>
+			<procstep>
+				<proccont>
+					<cntinfo>
+						<cntaddr>
+							<address>100 Town Centre Drive</address>
+							<addrtype>mailing and physical address</addrtype>
+							<address>Suite A</address>
+							<city>Rochester</city>
+							<state>New York</state>
+							<postal>14623</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntorgp>
+							<cntorg>Pictometry International Corp.</cntorg>
+						</cntorgp>
+						<cntpos>Customer Support</cntpos>
+						<cntvoice>585-486-0093</cntvoice>
+						<cntfax>585-486-0098</cntfax>
+						<hours>0900-1700 EST</hours>
+					</cntinfo>
+				</proccont>
+				<procdesc>GPS/INS processing: Data was post-processed using NGS CORS base station data.</procdesc>
+				<procsv>Applanix POSPac</procsv>
+				<procdate>Unknown</procdate>
+			</procstep>
+			<procstep>
+				<proccont>
+					<cntinfo>
+						<cntaddr>
+							<address>100 Town Centre Drive</address>
+							<addrtype>mailing and physical address</addrtype>
+							<address>Suite A</address>
+							<city>Rochester</city>
+							<state>New York</state>
+							<postal>14623</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntorgp>
+							<cntorg>Pictometry International Corp.</cntorg>
+						</cntorgp>
+						<cntpos>Customer Support</cntpos>
+						<cntvoice>585-486-0093</cntvoice>
+						<cntfax>585-486-0098</cntfax>
+						<hours>0900-1700 EST</hours>
+					</cntinfo>
+				</proccont>
+				<procdesc>Mosaicing:  Mosaicing was performed using Pictometry software</procdesc>
+				<procdate>Unknown</procdate>
+			</procstep>
+		</lineage>
+		<logic>Dataset is orthoimagery.  Logical consistency is not applicable.</logic>
+		<complete>Unknown</complete>
+	</dataqual>
+</metadata>
